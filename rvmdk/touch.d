@@ -1,0 +1,17 @@
+.\rvmdk\touch.o: drivers\touch.c
+.\rvmdk\touch.o: C:\Keil\version5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\rvmdk\touch.o: C:\Keil\version5\ARM\ARMCC\Bin\..\include\stdint.h
+.\rvmdk\touch.o: .\TivaWare\inc/hw_adc.h
+.\rvmdk\touch.o: .\TivaWare\inc/hw_gpio.h
+.\rvmdk\touch.o: .\TivaWare\inc/hw_ints.h
+.\rvmdk\touch.o: .\TivaWare\inc/hw_memmap.h
+.\rvmdk\touch.o: .\TivaWare\inc/hw_timer.h
+.\rvmdk\touch.o: .\TivaWare\inc/hw_types.h
+.\rvmdk\touch.o: .\TivaWare\driverlib/adc.h
+.\rvmdk\touch.o: .\TivaWare\driverlib/gpio.h
+.\rvmdk\touch.o: .\TivaWare\driverlib/interrupt.h
+.\rvmdk\touch.o: .\TivaWare\driverlib/sysctl.h
+.\rvmdk\touch.o: .\TivaWare\driverlib/timer.h
+.\rvmdk\touch.o: .\grlib\grlib.h
+.\rvmdk\touch.o: .\grlib\widget.h
+.\rvmdk\touch.o: drivers\touch.h

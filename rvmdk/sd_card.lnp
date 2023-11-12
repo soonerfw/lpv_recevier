@@ -1,0 +1,14 @@
+--cpu Cortex-M4.fp
+".\rvmdk\startup_rvmdk.o"
+".\rvmdk\sd_card.o"
+".\TivaWare\driverlib\rvmdk\driverlib.lib"
+".\rvmdk\uartstdio.o"
+".\rvmdk\cmdline.o"
+".\rvmdk\ff.o"
+".\rvmdk\mmc-ek-tm4c123g.o"
+".\rvmdk\cc932.o"
+--library_type=microlib --strict --scatter ".\st7735.sct"
+
+--entry Reset_Handler --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\rvmdk\sd_card.map" -o .\rvmdk\sd_card.axf

@@ -1,0 +1,66 @@
+Dependencies for Project 'sd_card', Target 'st7735': (DO NOT MODIFY !)
+F (.\Startup\startup_rvmdk.S)(0x5A39775B)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-o .\rvmdk\startup_rvmdk.o --depend .\rvmdk\startup_rvmdk.d)
+F (.\sources\sd_card.c)(0x5B5CAA7F)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I.\TivaWare -I.\third_party --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DENABLE_LFN -DTM4C123GH6PM-o .\rvmdk\sd_card.o --omf_browse .\rvmdk\sd_card.crf --depend .\rvmdk\sd_card.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C86E14)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C86E14)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C86E14)
+I (.\TivaWare\inc/hw_memmap.h)(0x5A39778E)
+I (.\TivaWare\driverlib/fpu.h)(0x5A397758)
+I (.\TivaWare\driverlib/gpio.h)(0x5A397758)
+I (.\TivaWare\driverlib/interrupt.h)(0x5A397758)
+I (.\TivaWare\driverlib/pin_map.h)(0x5A397758)
+I (.\TivaWare\driverlib/rom.h)(0x5A397758)
+I (.\TivaWare\driverlib/sysctl.h)(0x5A397758)
+I (.\TivaWare\driverlib/systick.h)(0x5A397758)
+I (.\TivaWare\driverlib/uart.h)(0x5A397758)
+I (.\TivaWare\utils/cmdline.h)(0x5A3977A2)
+I (.\TivaWare\utils/uartstdio.h)(0x5A3977A2)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C86E14)
+I (.\third_party\fatfs/src/ff.h)(0x5A397790)
+I (.\third_party\fatfs/src/integer.h)(0x5A397790)
+I (.\third_party\fatfs/src/ffconf.h)(0x5AC43B6C)
+I (.\third_party\fatfs/src/diskio.h)(0x5A397790)
+F (.\TivaWare\driverlib\rvmdk\driverlib.lib)(0x5A397758)()
+F (.\TivaWare\utils\uartstdio.c)(0x5A3977A2)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I.\TivaWare -I.\third_party --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DENABLE_LFN -DTM4C123GH6PM-o .\rvmdk\uartstdio.o --omf_browse .\rvmdk\uartstdio.crf --depend .\rvmdk\uartstdio.d)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C86E14)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C86E14)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C86E14)
+I (.\TivaWare\inc/hw_ints.h)(0x5A39778E)
+I (.\TivaWare\inc/hw_memmap.h)(0x5A39778E)
+I (.\TivaWare\inc/hw_types.h)(0x5A39778E)
+I (.\TivaWare\inc/hw_uart.h)(0x5A39778E)
+I (.\TivaWare\driverlib/debug.h)(0x5A397758)
+I (.\TivaWare\driverlib/interrupt.h)(0x5A397758)
+I (.\TivaWare\driverlib/rom.h)(0x5A397758)
+I (.\TivaWare\driverlib/rom_map.h)(0x5A397758)
+I (.\TivaWare\driverlib/sysctl.h)(0x5A397758)
+I (.\TivaWare\driverlib/uart.h)(0x5A397758)
+I (.\TivaWare\utils/uartstdio.h)(0x5A3977A2)
+F (.\TivaWare\utils\cmdline.c)(0x5A3977A2)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I.\TivaWare -I.\third_party --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DENABLE_LFN -DTM4C123GH6PM-o .\rvmdk\cmdline.o --omf_browse .\rvmdk\cmdline.crf --depend .\rvmdk\cmdline.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C86E14)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C86E14)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C86E14)
+I (.\TivaWare\utils/cmdline.h)(0x5A3977A2)
+F (.\third_party\fatfs\src\ff.c)(0x5A397790)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I.\TivaWare -I.\third_party --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DENABLE_LFN -DTM4C123GH6PM-o .\rvmdk\ff.o --omf_browse .\rvmdk\ff.crf --depend .\rvmdk\ff.d)
+I (third_party\fatfs\src\ff.h)(0x5A397790)
+I (third_party\fatfs\src\integer.h)(0x5A397790)
+I (third_party\fatfs\src\ffconf.h)(0x5AC43B6C)
+I (third_party\fatfs\src\diskio.h)(0x5A397790)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C86E14)
+F (.\third_party\fatfs\port\mmc-ek-tm4c123g.c)(0x5B5BDC67)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I.\TivaWare -I.\third_party --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DENABLE_LFN -DTM4C123GH6PM-o .\rvmdk\mmc-ek-tm4c123g.o --omf_browse .\rvmdk\mmc-ek-tm4c123g.crf --depend .\rvmdk\mmc-ek-tm4c123g.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C86E14)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C86E14)
+I (.\TivaWare\inc/hw_memmap.h)(0x5A39778E)
+I (.\TivaWare\inc/hw_types.h)(0x5A39778E)
+I (.\TivaWare\driverlib/gpio.h)(0x5A397758)
+I (.\TivaWare\driverlib/rom.h)(0x5A397758)
+I (.\TivaWare\driverlib/rom_map.h)(0x5A397758)
+I (.\TivaWare\driverlib/ssi.h)(0x5A397758)
+I (.\TivaWare\driverlib/sysctl.h)(0x5A397758)
+I (.\third_party\fatfs/src/diskio.h)(0x5A397790)
+I (.\third_party\fatfs/src/integer.h)(0x5A397790)
+F (.\third_party\fatfs\src\option\cc932.c)(0x5A397790)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I.\TivaWare -I.\third_party --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DENABLE_LFN -DTM4C123GH6PM-o .\rvmdk\cc932.o --omf_browse .\rvmdk\cc932.crf --depend .\rvmdk\cc932.d)
+I (third_party\fatfs\src\option\../ff.h)(0x5A397790)
+I (third_party\fatfs\src\option\../integer.h)(0x5A397790)
+I (third_party\fatfs\src\option\../ffconf.h)(0x5AC43B6C)
+F (.\readme.txt)(0x5B5CBB8D)()

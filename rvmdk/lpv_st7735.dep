@@ -1,0 +1,93 @@
+Dependencies for Project 'lpv', Target 'st7735': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::ARMCC
+F (.\Startup\startup_rvmdk.S)(0x6444ACE8)(--cpu Cortex-M4.fp.sp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_st7735-IC:\Keil\version5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil\version5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 532" --pd "_RTE_ SETA 1" --pd "TM4C123GH6PM SETA 1" --pd "_RTE_ SETA 1"-o .\rvmdk\startup_rvmdk.o --depend .\rvmdk\startup_rvmdk.d)
+F (.\sources\ST7735TestMain.c)(0x6445E0AF)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .\TivaWare -I .\third_party -I .\st7735_driver -I .\sources --c99-I.\RTE\_st7735-IC:\Keil\version5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil\version5\ARM\CMSIS\Include-D__UVISION_VERSION="532" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DENABLE_LFN-o .\rvmdk\st7735testmain.o --omf_browse .\rvmdk\st7735testmain.crf --depend .\rvmdk\st7735testmain.d)
+I (C:\Keil\version5\ARM\ARMCC\include\stdio.h)(0x5F64303C)
+I (C:\Keil\version5\ARM\ARMCC\include\stdint.h)(0x5F64303C)
+I (C:\Keil\version5\ARM\ARMCC\include\stdbool.h)(0x5F64303C)
+I (C:\Keil\version5\ARM\ARMCC\include\string.h)(0x5F64304A)
+I (.\TivaWare\inc/hw_memmap.h)(0x6444ACEF)
+I (.\TivaWare\inc/hw_ints.h)(0x6444ACEF)
+I (.\TivaWare\driverlib/gpio.h)(0x6444ACEC)
+I (.\TivaWare\driverlib/interrupt.h)(0x6444ACEC)
+I (.\TivaWare\driverlib/pin_map.h)(0x6444ACED)
+I (.\TivaWare\driverlib/rom.h)(0x6444ACED)
+I (.\TivaWare\driverlib/rom_map.h)(0x6444ACED)
+I (.\TivaWare\driverlib/ssi.h)(0x6444ACED)
+I (.\TivaWare\driverlib/sysctl.h)(0x6444ACED)
+I (.\TivaWare\driverlib/timer.h)(0x6444ACEE)
+I (.\TivaWare\driverlib/uart.h)(0x6444ACEE)
+I (.\TivaWare\inc/hw_adc.h)(0x6444ACEF)
+I (.\TivaWare\inc/hw_types.h)(0x6444ACF0)
+I (.\TivaWare\driverlib/adc.h)(0x6444ACEB)
+I (sources\adcin.h)(0x6444ACE7)
+I (sources\uartcmd.h)(0x6445A530)
+I (sources\funcs.h)(0x6445451C)
+I (sources\timercmd.h)(0x6444ACE8)
+I (.\st7735_driver\ST7735.h)(0x6444ACE8)
+F (.\sources\adcin.c)(0x6444ACE7)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .\TivaWare -I .\third_party -I .\st7735_driver -I .\sources --c99-I.\RTE\_st7735-IC:\Keil\version5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil\version5\ARM\CMSIS\Include-D__UVISION_VERSION="532" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DENABLE_LFN-o .\rvmdk\adcin.o --omf_browse .\rvmdk\adcin.crf --depend .\rvmdk\adcin.d)
+I (C:\Keil\version5\ARM\ARMCC\include\stdbool.h)(0x5F64303C)
+I (C:\Keil\version5\ARM\ARMCC\include\stdint.h)(0x5F64303C)
+I (.\TivaWare\inc/hw_memmap.h)(0x6444ACEF)
+I (.\TivaWare\driverlib/adc.h)(0x6444ACEB)
+I (.\TivaWare\driverlib/gpio.h)(0x6444ACEC)
+I (.\TivaWare\driverlib/pin_map.h)(0x6444ACED)
+I (.\TivaWare\driverlib/sysctl.h)(0x6444ACED)
+F (.\sources\uartcmd.c)(0x6445E78D)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .\TivaWare -I .\third_party -I .\st7735_driver -I .\sources --c99-I.\RTE\_st7735-IC:\Keil\version5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil\version5\ARM\CMSIS\Include-D__UVISION_VERSION="532" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DENABLE_LFN-o .\rvmdk\uartcmd.o --omf_browse .\rvmdk\uartcmd.crf --depend .\rvmdk\uartcmd.d)
+I (C:\Keil\version5\ARM\ARMCC\include\string.h)(0x5F64304A)
+I (C:\Keil\version5\ARM\ARMCC\include\stdio.h)(0x5F64303C)
+I (C:\Keil\version5\ARM\ARMCC\include\stdbool.h)(0x5F64303C)
+I (C:\Keil\version5\ARM\ARMCC\include\stdint.h)(0x5F64303C)
+I (.\TivaWare\inc/hw_memmap.h)(0x6444ACEF)
+I (.\TivaWare\inc/hw_types.h)(0x6444ACF0)
+I (.\TivaWare\inc/hw_ints.h)(0x6444ACEF)
+I (.\TivaWare\driverlib/uart.h)(0x6444ACEE)
+I (.\TivaWare\driverlib/sysctl.h)(0x6444ACED)
+I (.\TivaWare\driverlib/interrupt.h)(0x6444ACEC)
+I (.\TivaWare\driverlib/gpio.h)(0x6444ACEC)
+I (.\TivaWare\driverlib/timer.h)(0x6444ACEE)
+I (.\TivaWare\driverlib/pin_map.h)(0x6444ACED)
+I (.\TivaWare\driverlib/rom.h)(0x6444ACED)
+I (.\TivaWare\driverlib/rom_map.h)(0x6444ACED)
+I (sources\global.h)(0x6445282E)
+I (sources\adcin.h)(0x6444ACE7)
+I (.\st7735_driver\st7735.h)(0x6444ACE8)
+I (sources\funcs.h)(0x6445451C)
+F (.\sources\funcs.c)(0x6445E17E)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .\TivaWare -I .\third_party -I .\st7735_driver -I .\sources --c99-I.\RTE\_st7735-IC:\Keil\version5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil\version5\ARM\CMSIS\Include-D__UVISION_VERSION="532" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DENABLE_LFN-o .\rvmdk\funcs.o --omf_browse .\rvmdk\funcs.crf --depend .\rvmdk\funcs.d)
+I (C:\Keil\version5\ARM\ARMCC\include\stdint.h)(0x5F64303C)
+I (C:\Keil\version5\ARM\ARMCC\include\stdbool.h)(0x5F64303C)
+I (C:\Keil\version5\ARM\ARMCC\include\string.h)(0x5F64304A)
+I (sources\global.h)(0x6445282E)
+F (.\sources\timercmd.c)(0x6444ACE7)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .\TivaWare -I .\third_party -I .\st7735_driver -I .\sources --c99-I.\RTE\_st7735-IC:\Keil\version5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil\version5\ARM\CMSIS\Include-D__UVISION_VERSION="532" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DENABLE_LFN-o .\rvmdk\timercmd.o --omf_browse .\rvmdk\timercmd.crf --depend .\rvmdk\timercmd.d)
+I (C:\Keil\version5\ARM\ARMCC\include\stdio.h)(0x5F64303C)
+I (C:\Keil\version5\ARM\ARMCC\include\stdint.h)(0x5F64303C)
+I (C:\Keil\version5\ARM\ARMCC\include\stdbool.h)(0x5F64303C)
+I (C:\Keil\version5\ARM\ARMCC\include\string.h)(0x5F64304A)
+I (.\TivaWare\inc/hw_memmap.h)(0x6444ACEF)
+I (.\TivaWare\inc/hw_ints.h)(0x6444ACEF)
+I (.\TivaWare\driverlib/gpio.h)(0x6444ACEC)
+I (.\TivaWare\driverlib/interrupt.h)(0x6444ACEC)
+I (.\TivaWare\driverlib/pin_map.h)(0x6444ACED)
+I (.\TivaWare\driverlib/rom.h)(0x6444ACED)
+I (.\TivaWare\driverlib/rom_map.h)(0x6444ACED)
+I (.\TivaWare\driverlib/ssi.h)(0x6444ACED)
+I (.\TivaWare\driverlib/sysctl.h)(0x6444ACED)
+I (.\TivaWare\driverlib/timer.h)(0x6444ACEE)
+I (.\TivaWare\inc/hw_types.h)(0x6444ACF0)
+F (.\st7735_driver\ST7735.c)(0x6444ACE8)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .\TivaWare -I .\third_party -I .\st7735_driver -I .\sources --c99-I.\RTE\_st7735-IC:\Keil\version5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil\version5\ARM\CMSIS\Include-D__UVISION_VERSION="532" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DENABLE_LFN-o .\rvmdk\st7735.o --omf_browse .\rvmdk\st7735.crf --depend .\rvmdk\st7735.d)
+I (C:\Keil\version5\ARM\ARMCC\include\stdio.h)(0x5F64303C)
+I (C:\Keil\version5\ARM\ARMCC\include\stdint.h)(0x5F64303C)
+I (C:\Keil\version5\ARM\ARMCC\include\stdbool.h)(0x5F64303C)
+I (C:\Keil\version5\ARM\ARMCC\include\string.h)(0x5F64304A)
+I (.\TivaWare\inc/hw_memmap.h)(0x6444ACEF)
+I (.\TivaWare\driverlib/fpu.h)(0x6444ACEC)
+I (.\TivaWare\driverlib/gpio.h)(0x6444ACEC)
+I (.\TivaWare\driverlib/interrupt.h)(0x6444ACEC)
+I (.\TivaWare\driverlib/pin_map.h)(0x6444ACED)
+I (.\TivaWare\driverlib/rom.h)(0x6444ACED)
+I (.\TivaWare\driverlib/rom_map.h)(0x6444ACED)
+I (.\TivaWare\driverlib/ssi.h)(0x6444ACED)
+I (.\TivaWare\driverlib/sysctl.h)(0x6444ACED)
+I (st7735_driver\ST7735.h)(0x6444ACE8)
+F (.\TivaWare\driverlib\rvmdk\driverlib.lib)(0x6444ACEE)()
+F (.\readme.txt)(0x6444ACE5)()

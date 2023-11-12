@@ -1,0 +1,16 @@
+.\rvmdk\kentec320x240x16_ssd2119_spi.o: drivers\Kentec320x240x16_ssd2119_spi.c
+.\rvmdk\kentec320x240x16_ssd2119_spi.o: C:\Keil\version5\ARM\ARMCC\Bin\..\include\stdint.h
+.\rvmdk\kentec320x240x16_ssd2119_spi.o: C:\Keil\version5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\rvmdk\kentec320x240x16_ssd2119_spi.o: .\TivaWare\inc/hw_gpio.h
+.\rvmdk\kentec320x240x16_ssd2119_spi.o: .\TivaWare\inc/hw_ints.h
+.\rvmdk\kentec320x240x16_ssd2119_spi.o: .\TivaWare\inc/hw_memmap.h
+.\rvmdk\kentec320x240x16_ssd2119_spi.o: .\TivaWare\inc/hw_types.h
+.\rvmdk\kentec320x240x16_ssd2119_spi.o: .\TivaWare\driverlib/gpio.h
+.\rvmdk\kentec320x240x16_ssd2119_spi.o: .\TivaWare\driverlib/interrupt.h
+.\rvmdk\kentec320x240x16_ssd2119_spi.o: .\TivaWare\driverlib/pin_map.h
+.\rvmdk\kentec320x240x16_ssd2119_spi.o: .\TivaWare\driverlib/rom.h
+.\rvmdk\kentec320x240x16_ssd2119_spi.o: .\TivaWare\driverlib/ssi.h
+.\rvmdk\kentec320x240x16_ssd2119_spi.o: .\TivaWare\driverlib/sysctl.h
+.\rvmdk\kentec320x240x16_ssd2119_spi.o: .\TivaWare\driverlib/timer.h
+.\rvmdk\kentec320x240x16_ssd2119_spi.o: .\grlib\grlib.h
+.\rvmdk\kentec320x240x16_ssd2119_spi.o: drivers\Kentec320x240x16_ssd2119_spi.h

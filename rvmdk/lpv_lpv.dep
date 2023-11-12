@@ -1,0 +1,76 @@
+Dependencies for Project 'lpv', Target 'lpv': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::ARMCC
+F (.\Startup\startup_rvmdk.S)(0x65417C14)(--cpu Cortex-M4.fp.sp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_lpv-IC:\Keil\version5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil\version5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 532" --pd "_RTE_ SETA 1" --pd "TM4C123GH6PM SETA 1" --pd "_RTE_ SETA 1"-o .\rvmdk\startup_rvmdk.o --depend .\rvmdk\startup_rvmdk.d)
+F (.\sources\funcs.c)(0x6445E17E)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .\TivaWare -I .\third_party -I .\sources -I .\grlib --c99-I.\RTE\_lpv-IC:\Keil\version5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil\version5\ARM\CMSIS\Include-D__UVISION_VERSION="532" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DENABLE_LFN-o .\rvmdk\funcs.o --omf_browse .\rvmdk\funcs.crf --depend .\rvmdk\funcs.d)
+I (C:\Keil\version5\ARM\ARMCC\include\stdint.h)(0x5F64303C)
+I (C:\Keil\version5\ARM\ARMCC\include\stdbool.h)(0x5F64303C)
+I (C:\Keil\version5\ARM\ARMCC\include\string.h)(0x5F64304A)
+I (sources\global.h)(0x6445282E)
+F (.\sources\timercmd.c)(0x654BE0A8)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .\TivaWare -I .\third_party -I .\sources -I .\grlib --c99-I.\RTE\_lpv-IC:\Keil\version5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil\version5\ARM\CMSIS\Include-D__UVISION_VERSION="532" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DENABLE_LFN-o .\rvmdk\timercmd.o --omf_browse .\rvmdk\timercmd.crf --depend .\rvmdk\timercmd.d)
+I (C:\Keil\version5\ARM\ARMCC\include\stdio.h)(0x5F64303C)
+I (C:\Keil\version5\ARM\ARMCC\include\stdint.h)(0x5F64303C)
+I (C:\Keil\version5\ARM\ARMCC\include\stdbool.h)(0x5F64303C)
+I (C:\Keil\version5\ARM\ARMCC\include\string.h)(0x5F64304A)
+I (.\TivaWare\inc/hw_memmap.h)(0x6444ACEF)
+I (.\TivaWare\inc/hw_ints.h)(0x6444ACEF)
+I (.\TivaWare\driverlib/gpio.h)(0x6444ACEC)
+I (.\TivaWare\driverlib/interrupt.h)(0x6444ACEC)
+I (.\TivaWare\driverlib/pin_map.h)(0x6444ACED)
+I (.\TivaWare\driverlib/rom.h)(0x6444ACED)
+I (.\TivaWare\driverlib/rom_map.h)(0x6444ACED)
+I (.\TivaWare\driverlib/ssi.h)(0x6444ACED)
+I (.\TivaWare\driverlib/sysctl.h)(0x6444ACED)
+I (.\TivaWare\driverlib/timer.h)(0x6444ACEE)
+I (.\TivaWare\inc/hw_types.h)(0x6444ACF0)
+F (.\drivers\Kentec320x240x16_ssd2119_spi.c)(0x654A687D)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .\TivaWare -I .\third_party -I .\sources -I .\grlib --c99-I.\RTE\_lpv-IC:\Keil\version5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil\version5\ARM\CMSIS\Include-D__UVISION_VERSION="532" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DENABLE_LFN-o .\rvmdk\kentec320x240x16_ssd2119_spi.o --omf_browse .\rvmdk\kentec320x240x16_ssd2119_spi.crf --depend .\rvmdk\kentec320x240x16_ssd2119_spi.d)
+I (C:\Keil\version5\ARM\ARMCC\include\stdint.h)(0x5F64303C)
+I (C:\Keil\version5\ARM\ARMCC\include\stdbool.h)(0x5F64303C)
+I (.\TivaWare\inc/hw_gpio.h)(0x6444ACEF)
+I (.\TivaWare\inc/hw_ints.h)(0x6444ACEF)
+I (.\TivaWare\inc/hw_memmap.h)(0x6444ACEF)
+I (.\TivaWare\inc/hw_types.h)(0x6444ACF0)
+I (.\TivaWare\driverlib/gpio.h)(0x6444ACEC)
+I (.\TivaWare\driverlib/interrupt.h)(0x6444ACEC)
+I (.\TivaWare\driverlib/pin_map.h)(0x6444ACED)
+I (.\TivaWare\driverlib/rom.h)(0x6444ACED)
+I (.\TivaWare\driverlib/ssi.h)(0x6444ACED)
+I (.\TivaWare\driverlib/sysctl.h)(0x6444ACED)
+I (.\TivaWare\driverlib/timer.h)(0x6444ACEE)
+I (.\grlib\grlib.h)(0x654183B5)
+I (drivers\Kentec320x240x16_ssd2119_spi.h)(0x654183A6)
+F (.\TivaWare\utils\ustdlib.c)(0x6444ACF5)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .\TivaWare -I .\third_party -I .\sources -I .\grlib --c99-I.\RTE\_lpv-IC:\Keil\version5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil\version5\ARM\CMSIS\Include-D__UVISION_VERSION="532" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DENABLE_LFN-o .\rvmdk\ustdlib.o --omf_browse .\rvmdk\ustdlib.crf --depend .\rvmdk\ustdlib.d)
+I (C:\Keil\version5\ARM\ARMCC\include\stdint.h)(0x5F64303C)
+I (.\TivaWare\driverlib/debug.h)(0x6444ACEC)
+I (.\TivaWare\utils/ustdlib.h)(0x6444ACF6)
+I (C:\Keil\version5\ARM\ARMCC\include\stdarg.h)(0x5F64303C)
+I (C:\Keil\version5\ARM\ARMCC\include\time.h)(0x5F64304A)
+F (.\sources\fontview.c)(0x654D4490)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .\TivaWare -I .\third_party -I .\sources -I .\grlib --c99-I.\RTE\_lpv-IC:\Keil\version5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil\version5\ARM\CMSIS\Include-D__UVISION_VERSION="532" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DENABLE_LFN-o .\rvmdk\fontview.o --omf_browse .\rvmdk\fontview.crf --depend .\rvmdk\fontview.d)
+I (C:\Keil\version5\ARM\ARMCC\include\stdbool.h)(0x5F64303C)
+I (C:\Keil\version5\ARM\ARMCC\include\stdint.h)(0x5F64303C)
+I (C:\Keil\version5\ARM\ARMCC\include\stdio.h)(0x5F64303C)
+I (.\TivaWare\inc/hw_types.h)(0x6444ACF0)
+I (.\TivaWare\inc/hw_memmap.h)(0x6444ACEF)
+I (.\TivaWare\inc/hw_ints.h)(0x6444ACEF)
+I (.\TivaWare\driverlib/gpio.h)(0x6444ACEC)
+I (.\TivaWare\driverlib/fpu.h)(0x6444ACEC)
+I (.\TivaWare\driverlib/pin_map.h)(0x6444ACED)
+I (.\TivaWare\driverlib/rom.h)(0x6444ACED)
+I (.\TivaWare\driverlib/rom_map.h)(0x6444ACED)
+I (.\TivaWare\driverlib/interrupt.h)(0x6444ACEC)
+I (.\TivaWare\driverlib/sysctl.h)(0x6444ACED)
+I (.\TivaWare\driverlib/timer.h)(0x6444ACEE)
+I (.\TivaWare\driverlib/uart.h)(0x6444ACEE)
+I (sources\../grlib/grlib.h)(0x654183B5)
+I (sources\../drivers/Kentec320x240x16_ssd2119_spi.h)(0x654183A6)
+I (sources\../third_party/fonts/ofl/ofl_fonts.h)(0x654183B9)
+I (sources\../drivers/frame.h)(0x654183A6)
+I (sources\funcs.h)(0x6445451C)
+I (sources\timercmd.h)(0x6444ACE8)
+F (.\drivers\frame.c)(0x654B8639)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .\TivaWare -I .\third_party -I .\sources -I .\grlib --c99-I.\RTE\_lpv-IC:\Keil\version5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil\version5\ARM\CMSIS\Include-D__UVISION_VERSION="532" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DENABLE_LFN-o .\rvmdk\frame.o --omf_browse .\rvmdk\frame.crf --depend .\rvmdk\frame.d)
+I (C:\Keil\version5\ARM\ARMCC\include\stdbool.h)(0x5F64303C)
+I (C:\Keil\version5\ARM\ARMCC\include\stdint.h)(0x5F64303C)
+I (drivers\../grlib/grlib.h)(0x654183B5)
+I (drivers\../drivers/frame.h)(0x654183A6)
+F (.\TivaWare\driverlib\rvmdk\driverlib.lib)(0x6444ACEE)()
+F (.\TivaWare\driverlib\rvmdk\grlib.lib)(0x654183B7)()
+F (.\readme.txt)(0x654BA526)()

@@ -1,0 +1,15 @@
+.\rvmdk\st7735.o: st7735_driver\ST7735.c
+.\rvmdk\st7735.o: C:\Keil\version5\ARM\ARMCC\Bin\..\include\stdio.h
+.\rvmdk\st7735.o: C:\Keil\version5\ARM\ARMCC\Bin\..\include\stdint.h
+.\rvmdk\st7735.o: C:\Keil\version5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\rvmdk\st7735.o: C:\Keil\version5\ARM\ARMCC\Bin\..\include\string.h
+.\rvmdk\st7735.o: .\TivaWare\inc/hw_memmap.h
+.\rvmdk\st7735.o: .\TivaWare\driverlib/fpu.h
+.\rvmdk\st7735.o: .\TivaWare\driverlib/gpio.h
+.\rvmdk\st7735.o: .\TivaWare\driverlib/interrupt.h
+.\rvmdk\st7735.o: .\TivaWare\driverlib/pin_map.h
+.\rvmdk\st7735.o: .\TivaWare\driverlib/rom.h
+.\rvmdk\st7735.o: .\TivaWare\driverlib/rom_map.h
+.\rvmdk\st7735.o: .\TivaWare\driverlib/ssi.h
+.\rvmdk\st7735.o: .\TivaWare\driverlib/sysctl.h
+.\rvmdk\st7735.o: st7735_driver\ST7735.h

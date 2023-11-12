@@ -1,0 +1,12 @@
+.\rvmdk\mmc-ek-tm4c123g.o: third_party\fatfs\port\mmc-ek-tm4c123g.c
+.\rvmdk\mmc-ek-tm4c123g.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\rvmdk\mmc-ek-tm4c123g.o: C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h
+.\rvmdk\mmc-ek-tm4c123g.o: .\TivaWare\inc/hw_memmap.h
+.\rvmdk\mmc-ek-tm4c123g.o: .\TivaWare\inc/hw_types.h
+.\rvmdk\mmc-ek-tm4c123g.o: .\TivaWare\driverlib/gpio.h
+.\rvmdk\mmc-ek-tm4c123g.o: .\TivaWare\driverlib/rom.h
+.\rvmdk\mmc-ek-tm4c123g.o: .\TivaWare\driverlib/rom_map.h
+.\rvmdk\mmc-ek-tm4c123g.o: .\TivaWare\driverlib/ssi.h
+.\rvmdk\mmc-ek-tm4c123g.o: .\TivaWare\driverlib/sysctl.h
+.\rvmdk\mmc-ek-tm4c123g.o: .\third_party\fatfs/src/diskio.h
+.\rvmdk\mmc-ek-tm4c123g.o: .\third_party\fatfs/src/integer.h
